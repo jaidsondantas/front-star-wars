@@ -1,0 +1,33 @@
+.actions {
+  padding: 16px;
+}
+
+.pt-16{
+  padding-top: 16px;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .actions {
+    margin: 16px 16px 16px 16px;
+  }
+
+  mat-form-field {
+    width: 1150px;
+    padding-right: 17px;
+  }
+  .table {
+    margin: 16px 16px 16px 16px;
+
+    table {
+      width: 100%;
+    }
+
+    mat-paginator {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+
+

@@ -1,0 +1,9 @@
+.content {
+  padding-right: 20%;
+  padding-left: 20%;
+
+  @media screen and (max-width: 1024px) {
+    padding-left: inherit;
+    padding-right: inherit;
+  }
+}

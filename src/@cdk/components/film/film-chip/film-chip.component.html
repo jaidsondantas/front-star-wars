@@ -1,0 +1,14 @@
+<mat-chip-list
+  class="example-chip"
+  cdkDropList
+  cdkDropListOrientation="vertical"
+>
+  <mat-chip
+    class="example-box"
+    cdkDrag
+    *ngFor="let film of films">
+    <div>
+      <b> {{film.title}} </b> Diretor ({{film.director}})
+    </div>
+  </mat-chip>
+</mat-chip-list>
